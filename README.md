@@ -1,2 +1,2 @@
 # Pomodoro_Timer
-A Pomodoro Timer built with Python and tkinter to boost focus and efficiency. It follows the Pomodoro Technique, where work is divided into 25-minute sessions with short breaks to enhance productivity and prevent fatigue. This tool automates the work-rest cycle, helping users stay organized and manage time effectively.
+This project is a Pomodoro Timer built using Python and the tkinter library. The Pomodoro Technique is a time management strategy designed to enhance focus and efficiency by dividing work into structured sessions. Each session typically lasts 25 minutes, followed by a short break to maintain productivity and prevent fatigue. This timer automates the cycle of work and rest, helping users stay organized and maintain a balanced workflow.
