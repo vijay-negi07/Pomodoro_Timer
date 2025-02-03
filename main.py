@@ -6,8 +6,8 @@ RED = "#e7305b"
 GREEN = "#9bdeac"
 YELLOW = "#f7f5dd"
 FONT_NAME = "Courier"
-WORK_MIN = 1
-SHORT_BREAK_MIN = 1
+WORK_MIN = 25
+SHORT_BREAK_MIN = 25
 LONG_BREAK_MIN = 20
 reps = 0
 timer = None
@@ -88,7 +88,7 @@ title_label.grid(column=1,row=0)
 
 
 canvas = Canvas(width = 200,height = 224,bg = YELLOW,highlightthickness=0)  #Canvas is a widget that allows drawing graphics, layering images, and creating custom shapes.
-tomato_img = PhotoImage(file="pomodoro-start/tomato.png") #PhotoImage is a class used to handle and display images (in PNG, GIF, or PPM/PGM formats) in GUI applications.
+tomato_img = PhotoImage(file="tomato.png") #PhotoImage is a class used to handle and display images (in PNG, GIF, or PPM/PGM formats) in GUI applications.
 canvas.create_image(100,112,image = tomato_img)
 timer_text = canvas.create_text (100,130,text = "00:00",fill = "white",font=(FONT_NAME,35,"bold"))
 canvas.grid(column=1,row=1)
